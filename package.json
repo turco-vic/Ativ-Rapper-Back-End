@@ -1,10 +1,12 @@
 {
   "name": "ativ-rapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto para a resolução da atividade Rapper de Back-End",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
   },
   "author": "Enzo Turcovic",
   "license": "MIT",
